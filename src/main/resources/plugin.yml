@@ -5,6 +5,6 @@ version: ${project.version}
 api-version: ${project.bukkitAPIVersion}
 
 author: Acrobot
-description: A towny integration for ChestShop 
- 
+description: A towny integration for ChestShop
+
 depend: [ChestShop, Towny]

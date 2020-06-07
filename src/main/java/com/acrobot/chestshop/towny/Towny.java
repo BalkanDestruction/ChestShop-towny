@@ -13,16 +13,6 @@ import java.io.IOException;
 public class Towny extends JavaPlugin {
     private static File dataFolder;
 
-    public void onEnable() {
-        dataFolder = getDataFolder();
-
-        Configuration.pairFileAndClass(loadFile("config.yml"), Properties.class);
-
-        if (Properties.BUILDING_INSIDE_PLOTS) {
-            getServer().getPluginManager().registerEvents(new PlotListener(), this);
-        }
-    }
-
     public static File loadFile(String string) {
         File file = new File(dataFolder, string);
 
@@ -40,5 +30,15 @@ public class Towny extends JavaPlugin {
         }
 
         return file;
+    }
+
+    public void onEnable() {
+        dataFolder = getDataFolder();
+
+        Configuration.pairFileAndClass(loadFile("config.yml"), Properties.class);
+
+        if (Properties.BUILDING_INSIDE_PLOTS) {
+            getServer().getPluginManager().registerEvents(new PlotListener(), this);
+        }
     }
 }

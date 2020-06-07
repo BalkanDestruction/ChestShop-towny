@@ -14,7 +14,8 @@ public class TownyUtils {
 
     /**
      * Checks if the player is a resident of a given location
-     * @param player Player to check
+     *
+     * @param player   Player to check
      * @param location Location
      * @return Is the player a resident of this location?
      */
@@ -28,7 +29,8 @@ public class TownyUtils {
 
     /**
      * Checks if the player is a resident of given locations
-     * @param player Player to check
+     *
+     * @param player    Player to check
      * @param locations Locations
      * @return Is the player a resident of those locations?
      */
@@ -44,7 +46,8 @@ public class TownyUtils {
 
     /**
      * Checks if the player is the plot owner of the given location
-     * @param player Player to check
+     *
+     * @param player   Player to check
      * @param location Location
      * @return Is the player the plot owner of this location?
      */
@@ -59,7 +62,8 @@ public class TownyUtils {
 
     /**
      * Checks if the player is the plot owner of the given locations
-     * @param player Player to check
+     *
+     * @param player    Player to check
      * @param locations Locations
      * @return Is the player the plot owner of this locations?
      */
@@ -75,6 +79,7 @@ public class TownyUtils {
 
     /**
      * Checks if the location is in wilderness
+     *
      * @param location Location
      * @return Is the location in wilderness?
      */
@@ -84,6 +89,7 @@ public class TownyUtils {
 
     /**
      * Checks if the locations are in wilderness
+     *
      * @param locations Locations
      * @return Are the locations in wilderness?
      */
@@ -99,6 +105,7 @@ public class TownyUtils {
 
     /**
      * Checks if the location is inside shop plot
+     *
      * @param location Location to check
      * @return Is the location inside shop plot?
      */
@@ -108,6 +115,7 @@ public class TownyUtils {
 
     /**
      * Checks if the locations are inside shop plots
+     *
      * @param locations Locations to check
      * @return Are the location inside shop plots?
      */
