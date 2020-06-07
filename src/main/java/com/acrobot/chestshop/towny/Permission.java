@@ -6,12 +6,12 @@ import org.bukkit.entity.Player;
  * @author Acrobot
  */
 public enum Permission {
-    PROTECTION_BYPASS("ChestShop.towny.bypass");
+    PROTECTION_BYPASS();
 
     private final String permission;
 
-    Permission(String permission) {
-        this.permission = permission;
+    Permission() {
+        this.permission = "ChestShop.towny.bypass";
     }
 
     public static boolean has(Player player, Permission permission) {
